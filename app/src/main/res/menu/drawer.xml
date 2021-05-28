@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/naviHome"
+            android:title="Home"
+            android:icon="@drawable/ic_home" />
+        <item
+            android:id="@+id/naviProducts"
+            android:title="Products"
+            android:icon="@drawable/ic_list" />
+        <item
+            android:id="@+id/naviBlog"
+            android:title="Blog"
+            android:icon="@drawable/ic_blog" />
+        <item
+            android:id="@+id/naviWaxing"
+            android:title="Waxing"
+            android:icon="@drawable/ic_human" />
+        <item
+            android:id="@+id/naviWishList"
+            android:title="Wish List"
+            android:icon="@drawable/ic_products" />
+        <item
+            android:id="@+id/naviAboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_info"/>
+
+    </group>
+</menu>
