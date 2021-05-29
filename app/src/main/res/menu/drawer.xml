@@ -6,28 +6,28 @@
 
         <item
             android:id="@+id/naviHome"
-            android:title="Home"
-            android:icon="@drawable/ic_home" />
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
         <item
             android:id="@+id/naviProducts"
-            android:title="Products"
-            android:icon="@drawable/ic_list" />
+            android:icon="@drawable/ic_list"
+            android:title="Products" />
         <item
             android:id="@+id/naviBlog"
-            android:title="Blog"
-            android:icon="@drawable/ic_blog" />
+            android:icon="@drawable/ic_blog"
+            android:title="Blog" />
         <item
             android:id="@+id/naviWaxing"
-            android:title="Waxing"
-            android:icon="@drawable/ic_human" />
+            android:icon="@drawable/ic_human"
+            android:title="Waxing" />
         <item
             android:id="@+id/naviWishList"
-            android:title="Wish List"
-            android:icon="@drawable/ic_products" />
+            android:icon="@drawable/ic_products"
+            android:title="Wish List" />
         <item
             android:id="@+id/naviAboutUs"
-            android:title="About Us"
-            android:icon="@drawable/ic_info"/>
+            android:icon="@drawable/ic_info"
+            android:title="About Us" />
 
     </group>
 </menu>
