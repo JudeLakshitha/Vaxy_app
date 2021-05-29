@@ -18,8 +18,12 @@
             android:title="Blog" />
         <item
             android:id="@+id/naviWaxing"
-            android:icon="@drawable/ic_human"
+            android:icon="@drawable/ic_spa"
             android:title="Waxing" />
+        <item
+            android:id="@+id/naviMenWaxing"
+            android:icon="@drawable/ic_human"
+            android:title="Men Waxing" />
         <item
             android:id="@+id/naviWishList"
             android:icon="@drawable/ic_products"
@@ -28,6 +32,10 @@
             android:id="@+id/naviAboutUs"
             android:icon="@drawable/ic_info"
             android:title="About Us" />
+        <item
+            android:id="@+id/naviContactUs"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact Us" />
 
     </group>
 </menu>

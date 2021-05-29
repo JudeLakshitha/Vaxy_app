@@ -77,6 +77,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
                     startActivity(intent);
                 }
+                if (item.getItemId() == R.id.naviContactUs) {
+                    Intent intent = new Intent(getApplicationContext(), ContactActivity.class);
+                    startActivity(intent);
+                }
+                if (item.getItemId() == R.id.naviMenWaxing) {
+                    Intent intent = new Intent(getApplicationContext(), MenWaxingActivity.class);
+                    startActivity(intent);
+                }
 
                 return false;
             }

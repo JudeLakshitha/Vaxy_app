@@ -12,8 +12,11 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vaxy.NoActionBar">
-        <activity android:name=".AboutActivity"
-            android:hardwareAccelerated="true"></activity>
+        <activity android:name=".ContactActivity"></activity>
+        <activity android:name=".MenWaxingActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:hardwareAccelerated="true" />
         <activity android:name=".WishListActivity" />
         <activity android:name=".WaxActivity" />
         <activity android:name=".BlogActivity" />
